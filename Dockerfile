@@ -1,4 +1,4 @@
-FROM resin/rpi-raspbian:wheezy-2015-09-02
+FROM resin/rpi-raspbian:jessie
 
 MAINTAINER Adrien Brault <adrien.brault@gmail.com>
 
