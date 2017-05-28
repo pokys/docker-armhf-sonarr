@@ -1,3 +1,3 @@
 Package: *
-Pin: release n=wheezy
+Pin: release n=jessie
 Pin-Priority: 998
