@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-docker build --rm --no-cache -t adrienbrault/armhf-sonarr .
+docker build --rm --no-cache -t pokys/armhf-sonarr .
