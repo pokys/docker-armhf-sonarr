@@ -5,7 +5,7 @@
 ```
 docker run -d \
     --name sonarr \
-    --restart always \
+    --restart=unless-stopped \
     -p 8989:8989 \
     -p 9898:9898 \
     --link plex:plex \
