@@ -10,8 +10,8 @@ docker run -d \
     -p 9898:9898 \
     --link plex:plex \
     --link nzbget:nzbget \
-    -v <your_media_location>:/media \
-    -v <your_downloads_location>:/downloads \
-    -v <your_sonarr_config_location>:/config \
-    adrienbrault/armhf-sonarr
+    -v /mnt/extHDD/store/sonarr/media/:/media \
+    -v /mnt/extHDD/store/sonarr/downloads/:/downloads \
+    -v /srv/docker/sonarr/config:/config \
+    pokys/armhf-sonarr
 ```
