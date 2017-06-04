@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-docker build --rm -t adrienbrault/armhf-sonarr .
+docker build --rm -t pokys/armhf-sonarr .
