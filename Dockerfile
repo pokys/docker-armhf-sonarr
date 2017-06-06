@@ -15,7 +15,6 @@ RUN apt-get update -qy && \
     apt-get update -qy && \
     apt-get install -qy nzbdrone mediainfo && \
     apt-get install mono-devel && \
-    apt-get upgrade -qy && \
     apt-get -y autoremove && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
