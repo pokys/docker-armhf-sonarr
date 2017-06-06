@@ -14,7 +14,8 @@ RUN apt-get update -qy && \
     echo "deb https://apt.sonarr.tv/ master main" | tee -a /etc/apt/sources.list.d/sonarr.list && \
     apt-get update -qy && \
     apt-get install -qy nzbdrone mediainfo && \
-    apt-get install mono-devel && \
+    apt-get install mono-devel -qy && \
+    apt-get upgrade -qy && \
     apt-get -y autoremove && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
